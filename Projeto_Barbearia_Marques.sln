@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_Barbearia_Marques", "Projeto_Barbearia_Marques\Projeto_Barbearia_Marques.csproj", "{42F3B123-A955-4003-A2D9-E6EB8F463A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F3B123-A955-4003-A2D9-E6EB8F463A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F3B123-A955-4003-A2D9-E6EB8F463A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F3B123-A955-4003-A2D9-E6EB8F463A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F3B123-A955-4003-A2D9-E6EB8F463A55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC1B96A-C4F5-46E4-970F-98D06BEDDCDC}
+	EndGlobalSection
+EndGlobal

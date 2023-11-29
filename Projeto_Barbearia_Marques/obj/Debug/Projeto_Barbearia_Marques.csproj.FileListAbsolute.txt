@@ -1,0 +1,30 @@
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.AssemblyReference.cache
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.SuggestedBindingRedirects.cache
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.customers.resources
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.listar.resources
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.menu.resources
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.LOGIN.resources
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.Properties.Resources.resources
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.sCadastrar.resources
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.GenerateResource.cache
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.CoreCompileInputs.cache
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\bin\Debug\Projeto_Barbearia_Marques.exe.config
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\bin\Debug\Projeto_Barbearia_Marques.exe
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\bin\Debug\Projeto_Barbearia_Marques.pdb
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.exe
+C:\Users\cj3017281\Documents\Pasta do projeto versão 455 milhoes\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.pdb
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\bin\Debug\Projeto_Barbearia_Marques.exe.config
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\bin\Debug\Projeto_Barbearia_Marques.exe
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\bin\Debug\Projeto_Barbearia_Marques.pdb
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.AssemblyReference.cache
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.SuggestedBindingRedirects.cache
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.customers.resources
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.listar.resources
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.menu.resources
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.LOGIN.resources
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.Properties.Resources.resources
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.sCadastrar.resources
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.GenerateResource.cache
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.csproj.CoreCompileInputs.cache
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.exe
+F:\ProjetoV2\projetov2\Projeto_Barbearia_Marques\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.pdb
