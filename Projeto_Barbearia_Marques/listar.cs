@@ -73,6 +73,39 @@ namespace Projeto_Barbearia_Marques
         {
             UpdateListView();
         }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count > 0)
+            {
+                ListViewItem lvid = listView1.SelectedItems[0];
+                string sid = lvid.SubItems[0].Text;
+                int Armazena = Convert.ToInt32(sid);
+
+                seditar Seditar = new seditar(Armazena);
+                Seditar.ShowDialog();
+            }
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count > 0)
+            {
+                ListViewItem lvid = listView1.SelectedItems[0];
+                string sid = lvid.SubItems[0].Text;
+                int editarid = Convert.ToInt32(sid);
+
+
+                Connection conn = new Connection();
+                SqlCommand sqlCom = new SqlCommand();
+
+                sqlCom.Connection = conn.ReturnConnection();
+                sqlCom.CommandText = "DELETE from CLIENTES WHERE id = @id";
+                sqlCom.Parameters.AddWithValue("@id", editarid);
+
+                SqlDataReader dr = sqlCom.ExecuteReader();
+            }
+        }
     }
 
 }
