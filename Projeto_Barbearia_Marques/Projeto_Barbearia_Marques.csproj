@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conection.cs" />
-    <Compile Include="customers.cs">
+    <Compile Include="cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="customers.Designer.cs">
-      <DependentUpon>customers.cs</DependentUpon>
+    <Compile Include="cadastrar.Designer.cs">
+      <DependentUpon>cadastrar.cs</DependentUpon>
     </Compile>
     <Compile Include="seditar.cs">
       <SubType>Form</SubType>
@@ -85,8 +85,8 @@
     <Compile Include="sCadastrar.Designer.cs">
       <DependentUpon>sCadastrar.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="customers.resx">
-      <DependentUpon>customers.cs</DependentUpon>
+    <EmbeddedResource Include="cadastrar.resx">
+      <DependentUpon>cadastrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="seditar.resx">
       <DependentUpon>seditar.cs</DependentUpon>

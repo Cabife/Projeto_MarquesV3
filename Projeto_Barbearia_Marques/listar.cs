@@ -93,7 +93,7 @@ namespace Projeto_Barbearia_Marques
             {
                 ListViewItem lvid = listView1.SelectedItems[0];
                 string sid = lvid.SubItems[0].Text;
-                int editarid = Convert.ToInt32(sid);
+                int Armazena = Convert.ToInt32(sid);
 
 
                 Connection conn = new Connection();
@@ -101,7 +101,7 @@ namespace Projeto_Barbearia_Marques
 
                 sqlCom.Connection = conn.ReturnConnection();
                 sqlCom.CommandText = "DELETE from CLIENTES WHERE id = @id";
-                sqlCom.Parameters.AddWithValue("@id", editarid);
+                sqlCom.Parameters.AddWithValue("@id", Armazena);
 
                 SqlDataReader dr = sqlCom.ExecuteReader();
             }

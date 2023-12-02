@@ -28,51 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.ID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.nome = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.telefone = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.email = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.ID,
-            this.nome,
-            this.telefone,
-            this.email});
-            this.listView1.FullRowSelect = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(12, 12);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(441, 243);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
-            // 
-            // ID
-            // 
-            this.ID.Text = "ID";
-            this.ID.Width = 26;
-            // 
-            // nome
-            // 
-            this.nome.Text = "Nome";
-            this.nome.Width = 100;
-            // 
-            // telefone
-            // 
-            this.telefone.Text = "Telefone";
-            this.telefone.Width = 100;
-            // 
-            // email
-            // 
-            this.email.Text = "Email";
-            this.email.Width = 100;
             // 
             // btnEditar
             // 
@@ -94,14 +57,46 @@
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4});
+            this.listView1.FullRowSelect = true;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(12, 23);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(455, 215);
+            this.listView1.TabIndex = 3;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "ID";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Nome";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Telefone";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Email";
+            // 
             // listar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(596, 268);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.listView1);
             this.Name = "listar";
             this.Text = "listar";
             this.Load += new System.EventHandler(this.listar_Load);
@@ -110,13 +105,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader ID;
-        private System.Windows.Forms.ColumnHeader nome;
-        private System.Windows.Forms.ColumnHeader telefone;
-        private System.Windows.Forms.ColumnHeader email;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
     }
 }

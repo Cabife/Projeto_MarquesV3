@@ -57,7 +57,7 @@ namespace Projeto_Barbearia_Marques
 
         private void button1_Click(object sender, EventArgs e)
         {
-            customers Customers = new customers();
+            cadastrar Customers = new cadastrar();
             Customers.ShowDialog();
         }
     }

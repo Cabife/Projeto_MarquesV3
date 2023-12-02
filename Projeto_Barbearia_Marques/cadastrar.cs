@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Projeto_Barbearia_Marques
 {
-    public partial class customers : Form
+    public partial class cadastrar : Form
     {
-        public customers()
+        public cadastrar()
         {
             InitializeComponent();
         }
@@ -31,7 +31,10 @@ namespace Projeto_Barbearia_Marques
             
         }
 
-       
+        private void customers_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
    

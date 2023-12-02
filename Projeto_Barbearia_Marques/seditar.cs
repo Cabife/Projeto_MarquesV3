@@ -29,11 +29,11 @@ namespace Projeto_Barbearia_Marques
             SqlCommand sqlCommand = new SqlCommand();
 
             sqlCommand.Connection = connection.ReturnConnection();
-            sqlCommand.CommandText = @"UPDATE CLIENTE SET
-            Nome = @nome_cliente,
-            Email = @email_cliente,
-            Telefone = @telefone_cliente
-            WHERE Id = @Id"
+            sqlCommand.CommandText = @"UPDATE CLIENTES SET
+            nome_cliente = @Name,
+            email_cliente = @Email,
+            telefone_cliente = @Telefone
+            WHERE ID = @Id"
             ;
 
             sqlCommand.Parameters.AddWithValue("@Name", txbNome.Text);
@@ -71,9 +71,9 @@ namespace Projeto_Barbearia_Marques
             {
                 if (dr.Read())
                 {
-                    txbNome.Text = dr["Nome"].ToString();
-                    txbEmail.Text = dr["Email"].ToString();
-                    txbTelefone.Text = dr["Telefone"].ToString();
+                    txbNome.Text = dr["nome_cliente"].ToString();
+                    txbEmail.Text = dr["email_cliente"].ToString();
+                    txbTelefone.Text = dr["telefone_cliente"].ToString();
                 }
             }
         }
