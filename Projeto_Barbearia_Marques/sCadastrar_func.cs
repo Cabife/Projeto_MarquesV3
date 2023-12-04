@@ -8,13 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Linq;
 
 namespace Projeto_Barbearia_Marques
 {
-    public partial class sCadastrar : Form
+    public partial class sCadastrar_func : Form
     {
-        public sCadastrar()
+        public sCadastrar_func()
         {
             InitializeComponent();
         }
@@ -24,19 +23,30 @@ namespace Projeto_Barbearia_Marques
 
         }
 
-        private void btnCadastrar_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sCadastrar_func_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCadastrar_func_Click(object sender, EventArgs e)
         {
             Connection connection = new Connection();
             SqlCommand sqlCommand = new SqlCommand();
 
             sqlCommand.Connection = connection.ReturnConnection();
-            sqlCommand.CommandText = @"INSERT INTO CLIENTES VALUES 
-            (1, @nome_cliente, @telefone_cliente, @email_cliente)"
+            sqlCommand.CommandText = @"INSERT INTO FUNCIONARIOS VALUES 
+            (1, @nome_funcionario, @telefone_funcionario, @usuario, @senha)"
             ;
 
-            sqlCommand.Parameters.AddWithValue("@nome_cliente", txbNome.Text);
-            sqlCommand.Parameters.AddWithValue("@email_cliente", txbEmail.Text);
-            sqlCommand.Parameters.AddWithValue("@telefone_cliente", txbTelefone.Text);
+            sqlCommand.Parameters.AddWithValue("@nome_funcionario", txbNome.Text);
+            sqlCommand.Parameters.AddWithValue("@telefone_funcionario", txbTelefone.Text);
+            sqlCommand.Parameters.AddWithValue("@usuario", txbUsuario.Text);
+            sqlCommand.Parameters.AddWithValue("@senha", txbSenha.Text);
 
             try
             {
@@ -59,11 +69,6 @@ namespace Projeto_Barbearia_Marques
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information
                 );
-        }
-
-        private void sCadastrar_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

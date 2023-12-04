@@ -60,5 +60,13 @@ namespace Projeto_Barbearia_Marques
             cadastrar Customers = new cadastrar();
             Customers.ShowDialog();
         }
+
+        private void btnAgendar_Click(object sender, EventArgs e)
+        {
+            //instanciar tela de agendamento
+
+
+
+        }
     }
 }

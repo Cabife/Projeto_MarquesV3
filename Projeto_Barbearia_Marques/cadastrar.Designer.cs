@@ -72,6 +72,7 @@
             this.btnCadastrar_func.TabIndex = 3;
             this.btnCadastrar_func.Text = "CADASTRAR_FUNC";
             this.btnCadastrar_func.UseVisualStyleBackColor = true;
+            this.btnCadastrar_func.Click += new System.EventHandler(this.btnCadastrar_func_Click);
             // 
             // button5
             // 
@@ -79,8 +80,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(305, 65);
             this.button5.TabIndex = 4;
-            this.button5.Text = "LISTAR_DUNC";
+            this.button5.Text = "LISTAR_FUNC";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // cadastrar
             // 

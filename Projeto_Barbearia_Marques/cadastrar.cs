@@ -35,6 +35,18 @@ namespace Projeto_Barbearia_Marques
         {
 
         }
+
+        private void btnCadastrar_func_Click(object sender, EventArgs e)
+        {
+            sCadastrar_func sCadastrar = new sCadastrar_func();
+            sCadastrar.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Listar_func listar_func = new Listar_func();
+            listar_func.ShowDialog();
+        }
     }
 
    

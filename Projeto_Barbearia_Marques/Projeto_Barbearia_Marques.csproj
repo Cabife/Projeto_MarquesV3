@@ -46,12 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AGENDAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AGENDAR.Designer.cs">
+      <DependentUpon>AGENDAR.cs</DependentUpon>
+    </Compile>
     <Compile Include="Conection.cs" />
     <Compile Include="cadastrar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="cadastrar.Designer.cs">
       <DependentUpon>cadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listar_func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listar_func.Designer.cs">
+      <DependentUpon>Listar_func.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sCadastrar_func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sCadastrar_func.Designer.cs">
+      <DependentUpon>sCadastrar_func.cs</DependentUpon>
     </Compile>
     <Compile Include="seditar.cs">
       <SubType>Form</SubType>
@@ -85,8 +103,23 @@
     <Compile Include="sCadastrar.Designer.cs">
       <DependentUpon>sCadastrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="sEditar_func.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sEditar_func.Designer.cs">
+      <DependentUpon>sEditar_func.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AGENDAR.resx">
+      <DependentUpon>AGENDAR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cadastrar.resx">
       <DependentUpon>cadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listar_func.resx">
+      <DependentUpon>Listar_func.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sCadastrar_func.resx">
+      <DependentUpon>sCadastrar_func.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="seditar.resx">
       <DependentUpon>seditar.cs</DependentUpon>
@@ -108,9 +141,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="sCadastrar.resx">
       <DependentUpon>sCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sEditar_func.resx">
+      <DependentUpon>sEditar_func.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -124,6 +161,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

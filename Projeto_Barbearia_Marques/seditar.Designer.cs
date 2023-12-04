@@ -120,7 +120,7 @@
             this.Controls.Add(this.lbTelefone);
             this.Controls.Add(this.lbNome);
             this.Name = "seditar";
-            this.Text = "Editar";
+            this.Text = "Editar_CLI";
             this.Load += new System.EventHandler(this.seditar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
