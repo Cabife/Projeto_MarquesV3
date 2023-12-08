@@ -35,7 +35,7 @@ namespace Projeto_Barbearia_Marques
             SqlCommand sqlCom = new SqlCommand();
 
             sqlCom.Connection = conn.ReturnConnection();
-            sqlCom.CommandText = "select * from FUNCIONARIOS";
+            sqlCom.CommandText = "select * from FUNCIONARIO";
 
             try
             {
@@ -45,7 +45,7 @@ namespace Projeto_Barbearia_Marques
                 {
                     int id = (int)dr["ID"];
                     string nome = (string)dr["nome_funcionario"];
-                    string telefone = (string)dr["telefone_funcionario"];
+                    string telefone = (string)dr["telefone"];
                     string usuario = (string)dr["usuario"];
                     string senha = (string)dr["senha"];
 

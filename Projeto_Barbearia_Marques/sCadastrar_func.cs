@@ -39,12 +39,12 @@ namespace Projeto_Barbearia_Marques
             SqlCommand sqlCommand = new SqlCommand();
 
             sqlCommand.Connection = connection.ReturnConnection();
-            sqlCommand.CommandText = @"INSERT INTO FUNCIONARIOS VALUES 
-            (1, @nome_funcionario, @telefone_funcionario, @usuario, @senha)"
+            sqlCommand.CommandText = @"INSERT INTO FUNCIONARIO VALUES 
+            (1, @nome_funcionario, @telefone, @usuario, @senha)"
             ;
 
             sqlCommand.Parameters.AddWithValue("@nome_funcionario", txbNome.Text);
-            sqlCommand.Parameters.AddWithValue("@telefone_funcionario", txbTelefone.Text);
+            sqlCommand.Parameters.AddWithValue("@telefone", txbTelefone.Text);
             sqlCommand.Parameters.AddWithValue("@usuario", txbUsuario.Text);
             sqlCommand.Parameters.AddWithValue("@senha", txbSenha.Text);
 

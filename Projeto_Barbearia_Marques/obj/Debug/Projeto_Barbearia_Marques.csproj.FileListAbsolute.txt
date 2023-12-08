@@ -78,3 +78,7 @@ D:\programação\estudos\Projeto_marquesv3\Projeto_Barbearia_Marques\obj\Debug\P
 D:\programação\estudos\Projeto_marquesv3\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.pdb
 D:\programação\estudos\Projeto_marquesv3\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.Listar_func.resources
 D:\programação\estudos\Projeto_marquesv3\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.sEditar_func.resources
+C:\Users\cj3017281\Documents\pasta_projeto\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.AGENDAR.resources
+C:\Users\cj3017281\Documents\pasta_projeto\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.Listar_func.resources
+C:\Users\cj3017281\Documents\pasta_projeto\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.sCadastrar_func.resources
+C:\Users\cj3017281\Documents\pasta_projeto\Projeto_Barbearia_Marques\obj\Debug\Projeto_Barbearia_Marques.sEditar_func.resources

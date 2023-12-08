@@ -64,7 +64,8 @@ namespace Projeto_Barbearia_Marques
         private void btnAgendar_Click(object sender, EventArgs e)
         {
             //instanciar tela de agendamento
-
+            AGENDAR sAGENDAR = new AGENDAR();
+            sAGENDAR.ShowDialog();
 
 
         }

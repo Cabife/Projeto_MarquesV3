@@ -56,14 +56,14 @@ namespace Projeto_Barbearia_Marques
             Connection conn = new Connection();
             SqlCommand sqlCom = new SqlCommand();
             sqlCom.Connection = conn.ReturnConnection();
-            sqlCom.CommandText = @"SELECT * FROM  FUNCIONARIOS WHERE id = @id";
+            sqlCom.CommandText = @"SELECT * FROM  FUNCIONARIO WHERE id = @id";
             sqlCom.Parameters.AddWithValue("@id", editar);
             using (SqlDataReader dr = sqlCom.ExecuteReader())
             {
                 if (dr.Read())
                 {
                     txbNome.Text = dr["nome_funcionario"].ToString();
-                    txbTelefone.Text = dr["telefone_funcionario"].ToString();
+                    txbTelefone.Text = dr["telefone"].ToString();
                     txbUsuario.Text = dr["usuario"].ToString();
                     txbSenha.Text = dr["senha"].ToString();
 
