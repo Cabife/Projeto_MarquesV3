@@ -31,7 +31,7 @@ namespace Projeto_Barbearia_Marques
 
             sqlCommand.Connection = connection.ReturnConnection();
             sqlCommand.CommandText = @"INSERT INTO CLIENTES VALUES 
-            (1, @nome_cliente, @telefone_cliente, @email_cliente)"
+            (4, @nome_cliente, @telefone_cliente, @email_cliente)"
             ;
 
             sqlCommand.Parameters.AddWithValue("@nome_cliente", txbNome.Text);

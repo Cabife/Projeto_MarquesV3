@@ -40,7 +40,7 @@ namespace Projeto_Barbearia_Marques
 
             sqlCommand.Connection = connection.ReturnConnection();
             sqlCommand.CommandText = @"INSERT INTO FUNCIONARIO VALUES 
-            (1, @nome_funcionario, @telefone, @usuario, @senha)"
+            (4, @nome_funcionario, @telefone, @usuario, @senha)"
             ;
 
             sqlCommand.Parameters.AddWithValue("@nome_funcionario", txbNome.Text);
